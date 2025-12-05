@@ -1,0 +1,3 @@
+model,family,scale,trainable_params,ptflops_params,ptflops_flops,epochs,batch_size,grad_accum,best_epoch,best_val_acc,test_acc_at_best,test_loss_at_best
+ours_vit_large,ours_vit,large,1803850,1.8 M,123.19 MMac,100,32,1,89,0.803,0.8003,1.0713624094724654
+ours_hyb_large,ours_hybrid,large,2060362,2.06 M,301.26 MMac,100,32,1,97,0.8864,0.8898,0.6096098321331664

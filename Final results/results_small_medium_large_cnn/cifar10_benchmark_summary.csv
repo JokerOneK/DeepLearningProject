@@ -1,0 +1,8 @@
+model,family,scale,trainable_params,ptflops_params,ptflops_flops,epochs,batch_size,grad_accum,best_epoch,best_val_acc,test_acc_at_best,test_loss_at_best
+ours_cnn_small,ours_cnn,small,647386,647.39 k,87.12 MMac,100,32,1,92,0.9196,0.9143,0.280164690977335
+ours_vit_small,ours_vit,small,640010,640.01 k,44.99 MMac,100,32,1,96,0.8036,0.7915,0.857648100233078
+ours_hyb_small,ours_hybrid,small,798026,798.03 k,57.02 MMac,100,32,1,100,0.8356,0.8412,0.7413168504476547
+ours_cnn_medium,ours_cnn,medium,1148874,1.15 M,153.91 MMac,100,32,1,95,0.9316,0.9262,0.2535689247369766
+ours_vit_medium,ours_vit,medium,1137226,1.14 M,78.06 MMac,100,32,1,98,0.7986,0.7996,0.9815573999643326
+ours_hyb_medium,ours_hybrid,medium,1347434,1.35 M,147.54 MMac,100,32,1,99,0.8698,0.872,0.7384570149540901
+ours_cnn_large,ours_cnn,large,1793210,1.79 M,239.58 MMac,100,32,1,98,0.937,0.9295,0.23987166032232343
