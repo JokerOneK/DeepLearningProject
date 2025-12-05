@@ -517,13 +517,13 @@ def make_optimizer_and_scheduler(
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=200)
-    parser.add_argument("--batch_size", type=int, default=32)          # безопаснее от OOM
-    parser.add_argument("--grad_accum", type=int, default=1)           # можно увеличить, если хочешь "effective batch"
+    parser.add_argument("--batch_size", type=int, default=32)
+    parser.add_argument("--grad_accum", type=int, default=1)
     parser.add_argument("--num_workers", type=int, default=2)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--device_index", type=int, default=0)         # для NVML
+    parser.add_argument("--device_index", type=int, default=0)
     parser.add_argument("--out_prefix", type=str, default="cifar10_benchmark")
-    parser.add_argument("--filter", type=str, default="")              # например: "_small" или "sota_" или "ours_vit"
+    parser.add_argument("--filter", type=str, default="")              # "_small" or "sota_" or "ours_vit"
     parser.add_argument("--no_ptflops", action="store_true")
     args = parser.parse_args()
 
